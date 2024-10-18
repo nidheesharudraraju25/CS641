@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { ActivityIndicator, ScrollView, StyleSheet, Text, Image} from 'react-native';
+import React from 'react';
 
 export default function App() {
   return (
@@ -31,3 +32,6 @@ const styles = StyleSheet.create({
     height: 50,
   },
 });
+
+
+
